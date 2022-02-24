@@ -51,9 +51,6 @@ void Dijkstra(int root){
     }
 }
 int main(){
-	int dist[maxn],weight[maxn],path[maxn],G[maxn][maxn],num[maxn];
-	int n,m,st,ed;
-	bool vis[maxn];
     scanf("%d %d %d %d", &n, &m, &st, &ed);
     fill(G[0],G[0]+maxn*maxn,inf);
     int c1,c2,temp;
