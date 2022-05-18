@@ -20,7 +20,7 @@ void Dijkstra(int node){
     fill(dist,dist+maxn,inf);
     fill(vis,vis+maxn,false);
     dist[node]=0;
-    while(!vis[Sp]){
+    for(int tag=0;tag<=N;tag++){
         int v=-1;
         int min=inf;
         for(int i=0;i<=N;i++){
